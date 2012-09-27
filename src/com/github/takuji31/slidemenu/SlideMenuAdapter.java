@@ -27,7 +27,7 @@ public class SlideMenuAdapter extends SimpleListAdapter<SlideMenuItem> {
 	}
 
 	@Override
-	public View createView(int position, SlideMenuItem item, View v) {
+	public View createView(int position, SlideMenuItem item, View v, View parent) {
 		ViewHolder holder = (ViewHolder) v.getTag();
 		if (holder == null) {
 			holder = new ViewHolder();
